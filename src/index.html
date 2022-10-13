@@ -11,22 +11,22 @@
 </head>
 <body>
 
-    <main class="main">
-        <header class="header">
-            <div class="container">
-                <div class="header__inner">
-                    <div class="header__logo">
-                        АМНИСИТИЯ <span class="header__logo header__logo--color">РФ</span>
-                    </div>
-                    <button class="header__button">Бесплатная консультация</button>
-                    <button class="header__button-mobile">
-                        <img class="header__button-mobile-icon" src="./img/header/header-button-mobile.png" alt="header-button-mobile">
-                    </button>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    АМНИСИТИЯ <span class="header__logo header__logo--color">РФ</span>
                 </div>
+                <button class="header__button button--effect">Бесплатная консультация</button>
+                <button class="header__button-mobile">
+                    <img class="header__button-mobile-icon" src="./img/header/header-button-mobile.png" alt="header-button-mobile">
+                </button>
             </div>
-        </header>
-        <!-- ./header -->
+        </div>
+    </header>
+    <!-- ./header -->
 
+    <main class="main">
         <section class="promo" style="display: block;">
             <div class="container">
                 <div class="promo__inner">
@@ -174,8 +174,8 @@
                             <img class="features__item-image" src="./img/features/features-icon-two.png" alt="features-icon-two">
                         </div>
                         <p class="features__item-descr">
-                            Банки и коллекторы
-                            перестают названивать
+                            Не нужно закладывать
+                            имущество
                         </p>
                     </div>
                     <div class="features__item">
@@ -183,8 +183,7 @@
                             <img class="features__item-image" src="./img/features/features-icon-three.png" alt="features-icon-three">
                         </div>
                         <p class="features__item-descr">
-                            Банки и коллекторы
-                            перестают названивать
+                            Сохраним доход
                         </p>
                     </div>
                     <div class="features__item">
@@ -192,8 +191,8 @@
                             <img class="features__item-image" src="./img/features/features-icon-four.png" alt="features-icon-four">
                         </div>
                         <p class="features__item-descr">
-                            Банки и коллекторы
-                            перестают названивать
+                            Ускоренная в 4 раза
+                            процедура
                         </p>
                     </div>
                     <div class="features__item">
@@ -201,8 +200,8 @@
                             <img class="features__item-image" src="./img/features/features-icon-five.png" alt="features-icon-five">
                         </div>
                         <p class="features__item-descr">
-                            Банки и коллекторы
-                            перестают названивать
+                            Никаких черных
+                            меток
                         </p>
                     </div>
                 </div>
@@ -212,7 +211,7 @@
     </main>
     <!-- main -->
 
-    <footer class="footer footer--last">
+    <footer class="footer">
         <div class="container">
             <a class="footer__policy" href="#" target="_blank">Политика конфиденциальности</a>
             <div class="footer__info">
@@ -220,6 +219,47 @@
             </div>
         </div>
     </footer>
+    <!-- ./footer -->
+
+    <div class="modal modal-main">
+        <form action="#" class="modal-main__dialog">
+            <img src="img/modal/close.png" alt="close" class="modal-main__close">
+            <h3 class="modal-main__title">Обратный звонок</h3>
+            <p class="modal-main__subtitle">Для сотрудничества с нами оставьте свои данные.</p>
+            <div class="modal-main__input-group">
+                <input type="text" placeholder="Имя" class="modal-main__input">
+            </div>
+            <div class="modal-main__input-group">
+                <input type="tel" placeholder="+7 (___) ___ - __ - __" class="modal-main__input">
+            </div>
+            <button class="button modal-main__button">Отправить</button>
+            <div class="modal-main__text-small">
+                Нажимая на кнопку, вы даете согласие на обработку
+                персональных данных
+            </div>
+        </form>
+    </div>
+    <!-- ./modal modal-main -->
+
+    <div class="modal modal-thanks">
+        <div class="modal-thanks__dialog">
+            <img src="img/modal/close.png" alt="close" class="modal-thanks__close">
+            <img src="img/modal/ok.png" alt="ok" class="modal-thanks__img">
+            <p class="modal-thanks__title">Заявка отправлена</p>
+            <p class="modal-thanks__text">Мы получили вашу заявку. <br> Наш юрист свяжется с вами</p>
+        </div>
+    </div>
+    <!-- ./modal modal-thanks -->
+
+    <div class="modal modal-thanksQ">
+        <div class="modal-thanksQ__dialog">
+            <img src="img/modal/close.png" alt="close" class="modal-thanksQ__close">
+            <img src="img/modal/ok.png" alt="ok" class="modal-thanksQ__img">
+            <p class="modal-thanksQ__title">Спасибо за ответы</p>
+            <p class="modal-thanksQ__text">Ваши ответы приняты в обработку. <br> В ближайшее время с Вами свяжется юрист</p>
+        </div>
+    </div>
+    <!-- ./modal modal-thanksQ -->
 
     <script src="js/script.js"></script>
 </body>
