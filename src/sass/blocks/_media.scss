@@ -1,0 +1,610 @@
+@media (max-width: 1800px) {
+    .last {
+        &__image {
+            width: 830px;
+            right: 20px;
+        }
+    }
+}
+@media (max-width: 1669px) {
+    .container {
+        max-width: 1520px;
+    }
+    .last {
+        &__image {
+            width: 800px;
+            right: 20px;
+        }
+    }
+}
+
+@media (max-width: 1550px) {
+    .container {
+        max-width: 1420px;
+    }
+    .promo {
+        padding-top: 60px;
+        &::before {
+            width: 61%;
+        }
+        &__content {
+            padding-top: 20px;
+        }
+        &__content-title {
+            font-size: 46px;
+            line-height: 56px;
+        }
+        &__content-subtitle {
+            margin-top: 18px;
+        }
+        &__image {
+            width: 700px;
+        }
+        &__content-logo-inner {
+            margin-top: 65px;
+        }
+    }
+    .quiz {
+        min-height: 590px;
+        &__title {
+            margin-top: 80px;
+        }
+    }
+    .features {
+        padding-top: 22px;
+        padding-bottom: 25px;
+        &__item-descr {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+    .last {
+        &__image {
+            width: 770px;
+        }
+        &__title {
+            margin-top: 90px;
+        }
+    }
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 36px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .container {
+        max-width: 1320px;
+    }
+    .promo {
+        padding-bottom: 65px;
+        &::before {
+            width: 64%;
+            height: 69%;
+        }
+        &__content-title {
+            font-size: 44px;
+            line-height: 54px;
+        }
+        &__content-subtitle {
+            font-size: 35px;
+            line-height: 42px;
+        }
+        &__content-button {
+            margin-top: 18px;
+        }
+        &__image {
+            width: 680px;
+            right: 100px;
+        }
+        &__block {
+            padding: 22px 55px;
+            width: 360px;
+        }
+    }
+    .quiz {
+        min-height: 580px;
+        &__title {
+            margin-top: 75px;
+        }
+    }
+    .last {
+        &__image {
+            width: 665px;
+        }
+        &__title {
+            width: 635px;
+            font-size: 35px;
+            margin-top: 85px;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .container {
+        max-width: 1270px;
+    }
+    .promo {
+        background-size: 30%;
+        &__content-title {
+            font-size: 42px;
+            line-height: 52px;
+        }
+        &__content-subtitle {
+            font-size: 34px;
+            line-height: 40px;
+        }
+        &__image {
+            width: 640px;
+        }
+    }
+    .quiz {
+        min-height: 570px;
+    }
+    .last {
+        &__image {
+            width: 650px;
+        }
+        &__title {
+            margin-top: 80px;
+        }
+    }
+    .features {
+        &__item-circle {
+            min-width: 65px;
+            height: 65px;
+        }
+        &__item-image {
+            width: 37px;
+            height: 37px;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+    }
+    .promo {
+        &::before {
+            width: 67%;
+        }
+        &__content-title {
+            width: 625px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__image {
+            width: 630px;
+            right: 75px;
+        }
+        &__block {
+            padding: 20px 40px;
+            width: 330px;
+            height: 150px;
+        }
+        &__block-text {
+            line-height: 22px;
+        }
+    }
+    .quiz {
+        &__title {
+            margin-top: 60px;
+        }
+        &__box {
+            margin: 30px auto 0;
+        }
+    }
+    .last {
+        padding-bottom: 96px;
+        &__title {
+            width: 620px;
+            font-size: 34px;
+        }
+        &__image {
+            width: 585px;
+        }
+        &__form {
+            margin-top: 45px;
+        }
+    }
+    .features {
+        &__item-descr {
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        background-size: 37%;
+        &::before {
+            width: 63%;
+        }
+        &__content-title {
+            font-size: 38px;
+            line-height: 48px;
+        }
+        &__content-subtitle {
+            font-size: 30px;
+            line-height: 36px;
+        }
+        &__image {
+            width: 405px;
+            height: 330px;
+            right: 0;
+            bottom: -85px;
+        }
+        &__content-logo {
+            margin-right: 25px;
+        }
+    }
+    .quiz {
+        &__title {
+            margin-top: 50px;
+        }
+        &__button-group {
+            margin: 40px auto 0;
+        }
+    }
+    .last {
+        padding-bottom: 80px;
+        &__form {
+            width: 480px;
+        }
+        &__title {
+            width: 500px;
+            margin-top: 70px;
+            font-size: 30px;
+        }
+        &__image {
+            width: 465px;
+        }
+    }
+    .features {
+        padding-bottom: 15px;
+        &__items {
+            margin-top: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin: 10px;
+        }
+        &__item-descr {
+            max-width: 300px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+        width: 100%;
+    }
+    .header {
+        padding: 16px 0;
+        &__button {
+            display: none;
+        }
+        &__button-mobile {
+            display: block;
+        }
+    }
+    .promo {
+        background-size: 45%;
+        &::before {
+            height: 40%;
+            width: 60%;
+        }
+        &__content {
+            padding-top: 0;
+        }
+        &__content-title {
+            max-width: 430px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        &__content-subtitle {
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &__block {
+            padding: 16px 32px;
+            width: 270px;
+            height: 140px;
+        }
+        &__block-text {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__image {
+            width: 390px;
+            height: 320px;
+        }
+        &__content-logo {
+            margin-right: 20px;
+        }
+        &__content-logo-inner {
+            margin-top: 60px;
+        }
+    }
+    .quiz {
+        &__title {
+            font-size: 32px;
+            line-height: 40px;
+            margin-top: 40px;
+        }
+        &__button-group {
+            margin: 35px auto 0;
+        }
+    }
+    .last {
+        text-align: center;
+        padding-bottom: 60px;
+        &__image {
+            display: none;
+        }
+        &__form {
+            margin: 40px auto 0;
+            width: 547px;
+        }
+        &__title {
+            margin: 60px auto 0;
+        }
+    }
+    .features {
+        &__item-descr {
+            max-width: 275px;
+        }
+    }
+    .footer {
+        padding-top: 38px;
+        padding-bottom: 34px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+    .header {
+        padding: 12px 0;
+    }
+    .promo {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        text-align: center;
+        background-position: top 30px center;
+        &::before {
+            display: none;
+        }
+        &__inner {
+            justify-content: center;
+        }
+        &__image {
+            display: none;
+        }
+        &__image-mobile {
+            display: block;
+        }
+        &__block {
+            display: none;
+        }
+        &__content-logo-inner {
+            display: none;
+        }
+        &__content-title {
+            margin: 30px auto 0;
+            font-size: 34px;
+            line-height: 42px;
+        }
+        &__inner-logo-mobile {
+            display: block;
+        }
+        &__content-logo-mobile {
+            margin-left: 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+        &__content-block {
+            display: block;
+            padding: 16px 32px;
+            width: 260px;
+            height: 130px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 10px 0px;
+            margin: 30px auto 0;
+        }
+        &__block-starting {
+            padding: 6px 19px;
+            width: 140px;
+            height: 30px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__content-button {
+            margin-top: 0;
+        }
+    }
+    .quiz {
+        padding-bottom: 55px;
+        &__button {
+            width: 180px;
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+    .last {
+        &__form {
+            width: 480px;
+        }
+        &__title {
+            width: 480px;
+            font-size: 27px;
+        }
+    }
+    .features {
+        &__item {
+            margin: 8px;
+        }
+         &__text {
+            text-align: center;
+        }
+    }
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 26px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .promo {
+        .container {
+            padding: 0;
+        }
+        &__content-title {
+            font-size: 26px;
+            line-height: 32px;
+            max-width: 286px;
+        }
+        &__content-subtitle {
+            max-width: 290px;
+            font-size: 20px;
+            line-height: 24px;
+            margin: 15px auto 0;
+        }
+        &__image-mobile {
+            margin-top: 22px;
+        }
+    }
+    .quiz {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-size: 85%;
+        background-position: top 30px center;
+        &__title {
+            margin-top: 40px;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        &__logo {
+            &--one {
+                width: 153px;
+                height: 43px;
+                object-fit: contain;
+            }
+            &--two {
+                width: 121px;
+                height: 43px;
+            }
+        }
+        &__logo-inner {
+            width: 290px;
+        }
+        &__input-group {
+            width: 290px;
+            height: 50px;
+            margin: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__input {
+            width: 290px;
+            height: 50px;
+        }
+        &__button {
+            width: 290px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .last {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        &__title {
+            font-size: 24px;
+            width: 290px;
+            margin: 40px auto 0;
+        }
+        &__logo {
+            margin-right: 17px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &--one {
+                width: 143px;
+                height: 43px;
+                object-fit: contain;
+            }
+            &--two {
+                width: 121px;
+                height: 43px;
+                object-fit: contain;
+            }
+        }
+        &__form {
+            margin: 30px auto 0;
+            width: 290px;
+        }
+        &__button-inner {
+            flex-direction: column;
+        }
+        &__button {
+            width: 290px;
+            margin-right: 0;
+        }
+        &__input {
+            height: 50px;
+        }
+    }
+    .features {
+        padding: 36px 0;
+        &__text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            margin: 0;
+            margin-bottom: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-descr {
+            max-width: 182px;
+        }
+    }
+    .footer {
+        &__info,
+        &__policy {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+}
+

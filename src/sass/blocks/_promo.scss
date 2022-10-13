@@ -1,0 +1,104 @@
+.promo {
+    position: relative;
+    padding-top: 66px;
+    padding-bottom: 71px;
+    background: #F6F6F6 url('../img/promo/promo-bg.png') no-repeat;
+    background-position: top 23px center;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 57%;
+        height: 66%;
+        background: url('../img/promo/promo-before.png') no-repeat;
+        background-size: cover;
+    }
+    &__inner {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__image {
+        position: absolute;
+        right: 110px;
+    }
+    &__content {
+        padding-top: 24px;
+    }
+    &__content-title {
+        font-family: 'Gilroy Black', sans-serif;
+        color: #0065B1;
+        font-size: 48px;
+        line-height: 58px;
+        width: 770px;
+        &--color {
+            color: #111111;
+            display: block;
+        }
+    }
+    &__content-subtitle {
+        margin-top: 20px;
+        font-family: 'Gilroy Semibold', sans-serif;
+        font-size: 36px;
+        line-height: 43px;
+        color: #111111;
+    }
+    &__content-button {
+        width: 263px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    &__content-logo-inner {
+        margin-top: 71px;
+    }
+    &__content-logo {
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__block {
+        padding: 24px 65px;
+        width: 375px;
+        height: 170px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+        border-radius: 10px 0px;
+    }
+    &__block-text {
+        font-family: 'Uni Neue';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #111111;
+        &--color {
+            display: block;
+            color: #EE3F3F;
+        }
+    }
+    &__block-starting {
+        padding: 8px 14px;
+        width: 152px;
+        height: 40px;
+        border: 1px solid #EE3F3F;
+        border-radius: 5px;
+        margin: 10px auto 0;
+        font-family: 'Uni Neue';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #111111;
+    }
+    &__inner-logo-mobile {
+        display: none;
+    }
+    &__content-block {
+        display: none;
+    }
+    &__image-mobile {
+        display: none;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,37 @@
+.features {
+    padding-top: 24px;
+    padding-bottom: 27px;
+    background-color: #fff;
+    &__text {
+        font-family: 'Uni Neue';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: underline;
+    }
+    &__items {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__item-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        border: 2px solid #0065B1;
+    }
+    &__item-descr {
+        margin-left: 15px;
+        font-size: 18px;
+        line-height: 21px;
+        color: #111111;
+    }
+}

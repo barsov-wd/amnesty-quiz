@@ -1,0 +1,86 @@
+.quiz {
+    padding-top: 50px;
+    padding-bottom: 62px;
+    background: #F6F6F6 url('../img/promo/promo-bg.png') no-repeat;
+    background-position: top 23px center;
+    min-height: 600px;
+    &__logo-inner {
+        width: 367px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 90px;
+        text-align: center;
+        font-family: 'Gilroy Semibold', sans-serif;
+        font-size: 36px;
+        line-height: 43px;
+        color: #111111;
+    }
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 790px;
+        margin: 40px auto 0;
+        justify-content: center;
+    }
+    &__radio {
+        display: none;
+        &:checked + .quiz__label__text {
+            background: #0065B1;
+            color: #fff;
+        }
+    }
+    &__input-group {
+        width: 375px;
+        height: 60px;
+        margin: 10px;
+    }
+    &__label {
+        display: block;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        color: #111111;
+        &__text {
+            width: 100%;
+            height: 100%;
+            background: #FFFFFF;
+            border: 0.5px solid #E0E0E0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            span {
+                font-family: 'Uni Neue';
+                font-weight: 500;
+            }
+        }
+    }
+    &__button-group {
+        text-align: center;
+        margin: 44px auto 0;
+    }
+    &__button {
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 263px;
+        height: 60px;
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    &__input {
+        width: 375px;
+        height: 60px;
+        background-color: #fff;
+        border: none;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        &::placeholder {
+            color: rgba(#000, .2)
+        }
+    }
+}

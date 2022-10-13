@@ -1,0 +1,21 @@
+.footer {
+    padding-top: 45px;
+    padding-bottom: 41px;
+    background: #F6F6F6;
+    text-align: center;
+    &--last {
+        background: #fff;
+    }
+    &__policy,
+    &__info {
+        font-size: 18px;
+        line-height: 21px;
+        color: #111111;
+    }
+    &__policy {
+        text-decoration-line: underline;
+    }
+    &__info {
+        margin-top: 10px;
+    }
+}

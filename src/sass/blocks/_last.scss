@@ -1,0 +1,61 @@
+.last {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 106px;
+    background: #F6F6F6 url('../img/promo/promo-bg.png') no-repeat;
+    background-position: top 23px center;
+    &__image {
+        position: absolute;
+        bottom: 0;
+        right: 180px;
+    }
+    &__logo {
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__title {
+        margin-top: 105px;
+        font-family: 'Gilroy Semibold', sans-serif;
+        width: 674px;
+        font-size: 36px;
+        line-height: 120%;
+        color: #111111;
+    }
+    &__form {
+        width: 547px;
+        margin-top: 50px;
+    }
+    &__input {
+        width: 100%;
+        height: 60px;
+        border: none;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        line-height: 22px;
+        padding: 10px 20px;
+        &::placeholder {
+            color: rgba(#000, .2);
+        }
+    }
+    &__input-group {
+        margin-top: 20px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    &__button-inner {
+        display: flex;
+        margin-top: 25px;
+    }
+    &__button {
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 263px;
+        height: 60px;
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
